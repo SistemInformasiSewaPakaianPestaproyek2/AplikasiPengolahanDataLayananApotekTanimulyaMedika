@@ -4,47 +4,56 @@
 
 1. 1 **Latar Belakang**
 
-**       ** Klinik merupakan fasilitas kesehatan yang menyelenggarakan pelayanan kesehatan perorangan yang menyediakan pelayanan medis yang bersifat dasar maupun spesialistik  yang dipimpin oleh seorang tenaga medis. Suatu sistem sangatlah dibutuhkan dalam suatu sistem klinik, karena sistem sangatlah menunjang terhadap kinerja klinik, baik yang berskala kecil maupun besar. Supaya dapat mempermudah kerja pegawai maupun pasien maka diperlukan kerjasama diantara unsur-unsur yang terkait dalam sistem tersebut.Objek yang menjadi sebuah acuan dari permasalahan tersebut adalah terdiri dari pasien, masyarakat, tenaga medis, dan tenaga kesehatan.
+**       ** Klinik Tanimulya Medika merupakan fasilitas kesehatan yang menyelenggarakan pelayanan kesehatan perorangan dan menyediakan pelayanan medis yang bersifat dasar maupun spesialistik  yang dipimpin oleh seorang tenaga medis yang terletak di [Jalan Haji Gofur Rawa Tengah No.24, RT.02/RW.07, Tanimulya, Ngamprah, Kabupaten Bandung Barat, Jawa Barat, Indonesia](https://www.google.com/maps/dir/Current+Location/Jalan%20Haji%20Gofur%20Rawa%20Tengah%20No.24,%20RT.02/RW.07,%20Tanimulya,%20Ngamprah,%20Kabupaten%20Bandung%20Barat,%20Jawa%20Barat,%20Indonesia). Fasilitas yang terdapat pada klinik Tanimulya Medika terdiri dari pemeriksaan pasien, injeksi pasien, nebu, pemeriksaan gula darah, pemeriksaan asam urat, pemeriksaan kolesterol, perawatan luka, tes kehamilan, khitanan dan KB.
 
-        Dalam aplikasi pengolahan data menggunakan framework coedigniter (study kasus Klinik Tanimulya Medika) yang sudah dibuat sebelumnya masih terdapat beberapa kekurangan yang harus diperbaiki. Kekurangan dari sistem aplikasi sebelumnya antara lain yaitu keamanan dari aplikasi belum maksimal pengamanannya. Belum adanya pernyataan tentang stock obat yang digunakan klinik dan sumber obat tersebut. Sistem apotek yang ada di klinik belum tercantum dalam aplikasi tersebut.
+        Pada aplikasi sebelumnya dengan judul Pengolahan Data menggunakan Framework Codeigniter (Studi Kasus Klinik Tanimulya Medika) terdapat fitur – fitur yang sudah ada yaitu informasi yang ada di aplikasi dapat diakses oleh masyarakat, melakukan pendaftaran dan proses antrian bisa dilakukan secara online ataupun ofline, pendataan hasil pemeriksaan oleh dokter dilakukan secara komputerisasi, pembuatan surat rujukan melalui proses komputerisasi dan cepatnya proses monitoring laporan per harinya.
 
-        Sehingga masalah yang terjadi tersebut mengakibatkan sistem aplikasi dapat di manipulasi oleh sembarang orang tanpa adanya verifikasi terlebih dahulu. Data – data  obat yang masuk  dan digunakan oleh klinik menjadi tidak valid karena tidak tercantumnya sumber obat berasal dan kekurang tahuan petugas tentan jumlah atau stock obat yang ada di klinik. Sistem apotek yang tidak tercamtum di aplikasi membuat petugas apotek diharuskan untuk menggunakan sistem yang sudah digunakan sebelumnya atau sistem manual tanpa adanya komputerisasi. Pelaporan jenis obat yang sering digunakan di klinik tidak terekap setiap bulannya, hanya berdasarkan rekammedis dan catatan dokter saja.
+        Namun dalam aplikasi Pengolahan Data menggunakan Framework Codeigniter (Studi Kasus Klinik Tanimulya Medika) masih memiliki kekurangan yaitu penginputan data pasien masih belum detail atau rinci, penghapusan data antrian belum secara otomatis terhapus, keamanan aplikasi belum dirancang, laporan hanya merekap harga yang di dapat oleh dokter dan layanan apotek yang belum ada.
 
-        Solusi dari pengembangan aplikasi pengolahan data yang sudah ada diantaranya memberikan keamanan bagi pemilik sekaligus pengguna aplikasi web. Memberikan fasilitas kepada petugas apotek untuk data – data yang sudah terekap atau terkumpul mengenai supplier obat dan jumlah stock obat. Sistem apotek dibuat dalam aplikasi untuk memudahkan petugas apotek dalam pengecekan obat. Membuat laporan jenis obat yang sering digunakan dapat diambil dari data stock obat.
+        Pada masalah yang terdapat di aplikasi sebelumnya mengakibatkan petugas tidak mengetahui data pasien secara rinci, petugas seriap hari harus menghapusnya dan tidak boleh lupa yang menyulitkan petugas, sistem keamaan data yang disimpan bisa diretas oleh orang – orang jahil, petugas apotek yang harus menggunakan cara manual untuk membuat laporan data obat.
 
-        Tujuan dari pengembangaan aplikasi ini adalah pemilik klinik merasa aman terhadap aplikasi yang digunakan, pengelolaan stock obat dan pengirim obat dapat dikelola dengan mudah oleh petugas, sistem apotek mempermudah petugas apoteker dalam melaksanakan tugasnya dalam mengawasi jumlah obat, rekap laporan tentang jenis obat yang sering di gunakan klinik menjadi lebih terkomputerisasi.
+        Dari masalah-masalah yang terjadi, maka diadakannya pengembangan aplikasi dengan judul &quot; Aplikasi Layanan Apotik Tanimulya Medika berbasis Web&quot;, yang berutujuan agar data pasien dapat dilengkapi sehingga data pasien dapat digunakan untuk pengambilan obat berdasrkan resep dokter, penghapusan data antrian setiap harinya otomatis, peningkatan keamanan dalam sistem aplikasi agar tidak diretas oleh sekelompok orang, membuat layanan apotek untu memudahkan petugas dalam merekap data laporan obat.
 
 1. 2 **Identifikasi Masalah**
 
 Hambatan yang dialami dari latar belakang diatas, yaitu :
 
-1. **1.** Data stock obat tidak tercantum dalam aplikasi sebelumnya.
-2. **2.** Pembagiaan obat untuk pasien BPJS dan pasien umum.
-3. **3.** Laporan obat yang digunakan klinik per bulan.
+1. **1.** Data pasien untuk mengambil obat belum lengkap.
+2. **2.** Data antrian yang masih harus dihapus secara manual.
+3. **3.** Keamanan data pasien yang belum maksimal.
+4. **4.** Pengelompokan data obat untuk pasien yang memakai asuransi dan tidak menggunakan asuransi.
+5. **5.** Laporan data obat yang digunakan klinik per bulan.
 
 1. 3 **Tujuan**
 
-1. Pendataan stok obat per bulan.
-2. Mengidentifikasi pembagiaan obat untuk pasien BPJS dan pasien umum.
-3. Evaluasi laporan obat yang digunakan klinik per bulan.
+1. Mengevaluasi data pasien untuk pengambilan obat.
+2. Memperbaiki data antrian yang sudah terkomputerisasi.
+3. Memperkuat keamaan aplikasi dalam jaringan.
+4. Mengidentifikasi pengelompokan data obat untuk pasien yang memakai asuransi dan tidak menggunakan asuransi.
+5. Mengevaluasi laporan obat yang digunakan klinik per bulan.
 
 1. 4 **Ruang Lingkup**
 
-Penelitian ini meliputi pengembangan dari analisis dan perancangan aplikasi sebelumnya yang memiliki fasilitas yang dimiliki aplikasi Pengolahan Data menggunakan Framwork Codeigniter (Studi Kasus Klinik Tanimulya Medika) :
+Penelitian ini meliputi pengembangan dari analisis dan perancangan aplikasi sebelumnya yang memiliki fasilitas yang dimiliki Aplikasi Layanan Apotek Tanimuya Medika berbasis Web antara lain:
 
 1.  Petugas apotek dapat menginput data obat
-2. Proses pendataan stock obat dapat dilakukan oleh petugas apotek
-3. Stock obat dapat berkurang jika obat yang digunakan oleh dokter untuk diberikan kepada pasien.
-4. Laporan jenis obat yang sering digunakan diklinik dapat diketaui dari data stock obat.
-5. Pembagiaan untuk pasien yang menggunakan BPJS atau umum dilakukan oleh petugas.
+2. Proses pendataan obat dapat dilakukan oleh petugas apotek.
+3. Pengambilan obat berdasarkan resep dokter
+4. Pengelompokan data obat berdasarkan pasien yang memakai layanan asuransi dan tidak menggunakan layanan asuransi.
+5. Laporan data obat berdasarkan data obat yang ada di klinik.
+6. Pembayaran obat bisa dibayar separuh.
+7. Biaya resep diinputkan oleh petugas apotek.
+8. Salinan resep dibuat oleh petugas apotek.
+9. Data pasien digunakan untuk pengambilan obat dan juga resep.
+10. Nomor antrian akan berkurang jika pasien sudah mengambil obat.
 
 1. 5 **Sistematika Penulisan**
 
-Untuk memudahkan mengenai isi laporan ini, maka disusun sistematika penulisan. &quot;Pengembangan Aplikasi Pengolahan Data menggunakan Framework Codeigniter (Study\i Kasus Klinik Tanimulya Medika (sub modul apotek))&quot; sistematika penulisan sebagai berikut :
+Untuk memudahkan mengenai isi laporan ini, maka disusun sistematika penulisan. &quot;Aplikasi Layanan Apotek Tanimulya Medika &quot; sistematika penulisan sebagai berikut :
 
-Bab 1 Pendahuluan, pembahasannya meliputi latar belakang yang menguraikan mengenai alasan dibuatnya aplikasi tersebut, tujuan mengenai manfaat dibuatnya aplikasi tersebut, ruang lingkup merupakan batasan masalah yang akan disediakan aplikasi, sistematika penulisan mengurauikan struktur dan isi laporan secara garis besar.
+Bab 1 Pendahuluan, pembahasannya meliputi latar belakang yang menguraikan mengenai alasan dikembangkanya aplikasi tersebut, tujuan mengenai manfaat dibuatnya aplikasi tersebut, ruang lingkup merupakan batasan masalah yang akan disediakan aplikasi, sistematika penulisan mengurauikan struktur dan isi laporan secara garis besar.
 
-Bab 2 Landasan Teori, pada bab ini pembahasannya meliputi konsep pendukung penjelasan mengenai aplikasi pengelolaan data menggunakan framework codeigniter (studi kasus Klinik Tanimulya Medika) yang akan dibuat dan isi dari aplikasi tersebut. Antara lain teori mengenai Klinik, dokter, pasien, tenaga kesehatan, rekam medis dan pendukung aplikasi antara lain teori mengenai sistem pengolahan data, sistem informasi, framework codeigniter, pemrograman orientasi objek, star UML, MySQL.
+Bab 2 Landasan Teori, pada bab ini pembahasannya meliputi konsep pendukung penjelasan mengenai aplikasi layanan apotek Tanimulya Medika yang akan dikembangkan dan isi dari aplikasi tersebut. Antara lain teori mengenai Layanan, apotek, pasien, dokter, petugas apotek, resep dan pendukung aplikasi antara lain teori mengenai sistem pengolahan data, sistem informasi, framework codeigniter, pemrograman orientasi objek, star UML, MySQL.
 
 Bab 3 Analisis dan Perancangan, pada bab ini membahas tentang deskripsi terstruktur perancangan sistem. Analisis dan perancangan adalah proses untuk menentukan bentuk dari kebutuhan aplikasi baik yang sedang berjalan dan  yang akan dibangun, serta penjelasan perancangan aplikasi yang akan dibua. Pembahasan yang disajikan meliputi bagian pendaftaran, pemeriksaan, rujukan, laporan yang membahas tentang penjelasan dari setiap proses aplikasi . Gambar dari suatu rancangan menjelaskan proses aplikasi manajemen data ini dari awal sampai akhir. Serta perangkat pendukung dalam pembuatan aplikasi sistem informasi  ini.
 
