@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+#daftar {
+		
+}
+h2 {
+	font-size : 15px;
+	font-weight :bold;
+	color :#099;
+	padding-top:1em;
+	padding-bottom:1em;
+	text-align:center;
+}
+#daftar_form {
+	padding:10px;
+}
+#daftar_form p label {
+	display : block;
+	float:left;{
+	width :80px;
+	font-size:16px;
+}
+#daftar_form p{
+	margin-bottom:10px;
+}
+
+#submit {
+	padding : 0 4px;
+	border:#0066CC solid 1px;
+	border-radius:2px;
+	background-color:#008F47;
+	margin-left:80px;
+}
+#daftar.field_error, #daftar#message {
+	font-size :12px;
+	color:#F00;
+}
+#daftar #form_error_message{
+	margin-bottom:20px;
+}
+#daftar.field_error {
+	clear:both;
+	margin-left:80px;
+}
+.form_field {
+	border:#666 solid 1px;	
+}
+.form_field:focus{
+	background-color:#F9E9A9;
+}

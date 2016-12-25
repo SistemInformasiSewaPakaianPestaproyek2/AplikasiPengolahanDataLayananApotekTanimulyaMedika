@@ -1,0 +1,1 @@
+Klinik Tanimulya Medika | &copy; by Proyek IT I 2015<br />
