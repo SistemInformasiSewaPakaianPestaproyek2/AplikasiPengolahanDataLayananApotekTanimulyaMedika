@@ -1,0 +1,454 @@
+@charset "utf-8";
+/*CSS Document */
+body {
+	background-image :url(../images/bg_2.jpg);
+	padding: 0;
+	margin: 0;
+	font-family :"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size :13px;
+}
+a, a :visited {
+	text-decoration : none;
+}
+/* wrapper */
+#wrapper {
+	width : 1100px;
+	padding : 20px;
+	margin: 20px auto;
+	background-color : #FFF;
+	
+}
+/* top */
+.top {
+	padding :5px 0;
+	border-bottom: solid thin #EEE;
+	margin-bottom : 10px;
+	text-align : right;
+}
+.top a:hover {
+	color :#096;
+	font-weight :bold;
+}
+/*header*/
+header {
+	min-height :100px;
+}
+header #logo {
+	width :auto;
+	height:auto;
+	float :left;
+}
+header#logo img {
+	width : 100px;
+	height:auto;
+}
+header#nama {
+	width :880px;
+	float: right;
+	padding:20px 0;
+	font-size :26px;
+}
+.nama {
+	color : #00CC66;
+	font-size: 25px;
+	text-shadow : 1px 1px gray;
+}
+/* navigasi */
+nav {
+	background-color:#008F47;
+	margin: 15px 0;
+	height :50px;
+	color : #FFF;
+	padding : 5px 10px;
+}
+nav ul {
+	padding :0;
+	margin: 0;
+	float : left;
+}
+nav ul li {
+	float :left;
+	display:inline-block;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li a, nav ul li a:visited{
+	padding :10px 20px;
+	height: 30px;
+	color :#FFF;
+	float: left;
+	font-size :15px;
+	font-weight:bold;
+}
+nav ul li a:hover{
+	background-color : #CCFF66;
+	color : #000;
+}
+
+/* cari */
+.cari {
+	border : solid thin #EEE;
+	background-color : #F5F5F5;
+	padding :10px 20 px;
+	min-height :25 px;
+	margin-bottom : 20px;
+	border-radius : 10px;
+	
+}
+.cari label {
+	padding : 5px;
+}
+.cari input[type='text'], .cari select {
+	padding : 8px 16ppx;
+	border-radius : 5px;
+	border : solid thin #099;
+}
+.cari input [type='submit'] {
+	padding : 8px 16px;
+	background-color : #099;
+	border-radius :5px;
+	border : none;
+	cursor: pointer;
+	color : #FFF;
+	font-weight :bold;
+}
+.cari input[type='submit']:hover {
+	background-color: #096;
+}
+/* konten */
+.konten {
+	min-height : 200px;
+	height :auto;
+}
+
+/* untuk profil */
+.profil{
+	font-size : 14px;
+	float : left;
+	font-size:15x;
+	width :600px;
+	display :inline;
+}
+.profil h3, h2{
+	font-size : 18px;
+	font-weight: bold;
+}
+.profil p {
+	font-size : 14px;
+	float : left;
+	padding-left:5px;
+	margin : 10px 20px;
+	
+}
+/**
+layanan
+**/
+
+.layanan {
+	min-height : 300px;
+	background-color : #FFF;
+	width : 420px;
+	float : left;
+	border :solid 1px #EEE;
+}
+.layanan form {
+	margin : 10px 20px;
+}
+.layanan ul {
+	padding : 10px 20px;
+	margin : 0 20 px;
+}
+.layanan ul li{
+	padding :4px 0;
+	display : inline;
+}
+.layanan img {
+	width : 35px;
+	height:35px;
+}
+.layanan th, .layanan td, .layanan tr{
+	font-size :15px;
+}
+/*artikel*/
+.artikel {
+	float:left;
+	font-size:15px;
+	
+}
+.artikel img {
+	width :auto;
+	height:auto;
+	float:left;
+}
+.artikel table {
+	color:#000;
+	float:left;
+	text-align:justify;
+}
+.artikel p {
+	float:left;
+	margin:0px 0px;
+	font-weight:normal;
+}
+.artikel th, .artikel td, .artikel tr{
+	font-size:15px;
+	text-align:justify;
+}
+/*kontak */
+
+/*slider*/
+.slider {
+	height :300px;
+	width : 600px;
+	background-color : #FFC;
+	float : left;
+
+}
+.slider img {
+	width : 1100px;
+	height : 300px;
+	border : solid 1px #008F47;
+}
+.slider p {
+	float:right;
+}
+/*daftar*/
+.daftar form {
+	
+}
+.daftar p{
+	float : center;
+}
+.daftar ul {
+	margin :  0px;
+	font-size :20px;
+	font-weight :bold;
+	position: center;
+}
+.daftar ul h5 {
+	text-align: center;
+}
+.daftar ul input [type='submit']:hover, .daftar input[type='reset']:hover{
+	background-color : #00CC66;
+}
+
+/*anggota */
+.anggota {
+	min-height : 300px;
+	background-color : #FFF;
+	width : 460px;
+	float : right;
+	border :solid 1px #EEE;
+
+}
+.anggota h3{
+	background-color : #EEE;
+	color : #008F47;
+	padding :10px 20px;
+	margin-top :0;
+	font-size :16px;
+}
+.anggota p {
+	margin : 10px 20px;
+}
+.anggota form {
+	margin : 10px 20px;
+}
+
+.anggota input[type='submit'],.anggota input [type='reset'] {
+	padding :8px 16 px;
+	background-color : #008F47;
+	border-radius :5px;
+	border :none;
+	cursor :pointer;
+	color :#FFF;
+	font-weight :bold;
+}
+.anggota input [type='submit']:hover, .anggota input[type='reset']:hover{
+	background-color : #00CC66;
+}
+.anggota ul {
+	padding : 10px 20px;
+	margin : 0 20 px;
+}
+.anggota ul li{
+	padding :4px 0;
+	border-bottom : dotted thin #CCC;
+	display : inline-block;
+}
+.anggota a :hover {
+	color : #F60;
+}
+/* posting */
+.posting {
+	float :left;
+	width: 600px;
+	min-height :300px;
+	height: auto;
+	border :solid 1px #EEE;
+	color : #666;
+	text-align :justify;
+}
+.posting p {
+	font-size : 15px;
+	font-weight:bold;
+	padding: 0px 20px;
+}
+.posting img {
+	width : 100px;
+	height : 80px;
+}
+.posting h3,h2{
+	padding : 10px 20px;
+	margin-top:0;
+	background-color : #F5F5F5;
+	color : #008F47;
+}
+.posting.ringkasan{
+	margin : 10px 20px;
+	color : #099;
+}
+/* setting tabel */
+table.myform {
+	font-size :13px;
+	border : soft thin #EEE;
+}
+.myform th, .myform td {
+	text-align:left;
+	vertical-align:top;
+	padding :8px 16 px;
+	border-bottom :solid thin #EEE;
+}
+.myform th {
+	font-weight:bold;
+	color: #008F47;
+}
+/* ringkasan */
+
+.ringkasan{
+	font-size:15x;
+	width : 460px;
+	float : right;
+	display :inline;
+}
+.ringkasan p{
+	font-size: 14px;
+	
+}
+/*form setting*/
+#login form, form.myform {
+	border : solid thin #EEE;
+}
+#login form {
+	margin :10px 20px;
+}
+#login form label, .myform label {
+	font-weight : bold;
+	display :block;
+	text-transform : capitalize;
+}
+#login input[type='text'], #login input [type='password'], myform input[type='text'], .myform input [type='password'],
+.myform select, .myform textarea {
+	padding :6px 12px;
+	background-color : #F5F5F5;
+}
+#login input [type='text'], #login input[type='password'] {
+	width :94%;
+}
+#login input[type='submit'], #login input [type='reset'],
+.myform input [type='submit'], .myform input[type='reset'],
+a.tambah, a:visited.tambah {
+	background-color : #066;
+	color: #fff;
+	padding : 10px 20px;
+	border:none;
+	border-radius:5px;
+	cursor:pointer;
+	font-weight:bold;
+	text-shadow:1px 1px gray;
+	margin-right:10px;
+	margin-bottom:20px;
+	display:inline-block;
+}
+#login input[type='submit']:hover, #login input [type='reset']:hover,
+.myform input[type='submit']:hover, .myform input [type='reset']:hover,
+a.tambah, a:hover.tambah {
+	background-color:#000;
+}
+#login form a,#login form a:visited {
+	color :#f30;
+}
+#login form a:hover {
+	color:#900;
+}
+.myform th, .myform td {
+	text-align : left;
+	vertical-align :top;
+	padding:8px 16px;
+	border-bottom:solid thin #EEE;
+}
+.myform th {
+	background-color :#F5F5F5;
+	font-weight:bold;
+	color:#099;
+}
+.abu {
+	font-size :11px;
+	color: #666;
+}
+.merah {
+	color :#F30;
+	font-weight:bold;
+}
+/*warning dan sukses*/
+.warning, .sukses {
+	border-bottom : solid 2px #09C;
+}
+.warning {
+	background-color : #F5F5F5;
+	color :#F00;
+	border-left : solid 8px #090;
+	padding : 10 px 20px;
+}
+.sukses {
+	background-color : #F5F5F5;
+	color : #090;
+	border-left: solid 8px #090;
+	padding : 10px 20px;
+}
+#login.warning, #login.sukses {
+	margin : 10px 20px;
+}
+/*clearfix*/
+.clearfix {
+	margin-bottom : 10px;
+	display : block;
+	clear:both;
+}
+
+/* daftar kartu pasien */
+
+
+
+/*footer*/
+footer {
+	padding-top :10px;
+	padding-bottom: 20px;
+	border-top: solid 4px #EEE;
+	color: #666;
+}
+footer a, footer a:visited{
+	color: #666;
+}
+footer a : hover {
+	color : #900;
+}
+
+artikel {
+	float:left;
+	color : #099;
+}
+	
+	

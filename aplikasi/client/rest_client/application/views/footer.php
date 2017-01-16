@@ -1,0 +1,1 @@
+Klinik Tanimulya Medika | &copy; by Proyek IT II 2017<br />
